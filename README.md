@@ -1,6 +1,10 @@
-# Seguridad de Redes
+### Seguridad en Redes y Sistemas de Software
 
-Este repositorio es para subir la documentacion de los retos de hacking
+#### Notas de hacking de los retos resueltos durante el semestre
 
-Armando Portillo Reyes armandoprtillo14@gmail.com
+Jose Armando Portillo Reyes
+armandoprtillo14@gmail.com
+
+## Retos Bandit
+
 
