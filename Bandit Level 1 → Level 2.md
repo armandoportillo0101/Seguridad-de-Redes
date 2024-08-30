@@ -1,43 +1,40 @@
+## Objetivo
+The password for the next level is stored in a file called **-** located in the home directory
+[](https://github.com/armandoportillo0101/Seguridad-de-Redes/blob/main/Plantilla.md#objetivo)
 
-The goal of this level is for you to log into the game using SSH. The host to which you need to connect is **bandit.labs.overthewire.org**, on port 2220. The username is **bandit0** and the password is **bandit0**. Once logged in, go to the Level 1 page to find out how to beat Level 1.
-## Datos de acceso al nivel 
+## Datos de acceso al nivel
+bandit1
+ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+[](https://github.com/armandoportillo0101/Seguridad-de-Redes/blob/main/Plantilla.md#datos-de-acceso-al-nivel)
 
-user: bandit0
-pass: bandit0
-
-## Solución  
+## Solución
 ```
-
-C:\Users\Lab Redes>ssh bandit0@bandit.labs.overthewire.org -p 2220
-The authenticity of host '[bandit.labs.overthewire.org]:2220 ([13.50.165.192]:2220)' can't be established.
-ECDSA key fingerprint is SHA256:IJ7FrX0mKSSHTJ63ezxjqtnOE0Hg116Aq+v5mN0+HdE.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Warning: Permanently added '[bandit.labs.overthewire.org]:2220,[13.50.165.192]:2220' (ECDSA) to the list of known hosts.
-						 _                     _ _ _
-                        | |__   __ _ _ __   _| () |_
-                        | '_ \ / ` | ' \ / _` | | __|
-                        | |) | (| | | | | (| | | |
-                        |./ \,|| ||\,||\|
+C:\Users\Armando Portillo>ssh bandit1@bandit.labs.overthewire.org -p 2220
+                         _                     _ _ _
+                        | |__   __ _ _ __   __| (_) |_
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
 
 
                       This is an OverTheWire game server.
             More information on http://www.overthewire.org/wargames
 
-bandit0@bandit.labs.overthewire.org's password:
+bandit1@bandit.labs.overthewire.org's password:
 
       ,----..            ,----,          .---.
      /   /   \         ,/   .`|         /. ./|
     /   .     :      ,`   .'  :     .--'.  ' ;
-   .   /   ;.  \   ;    ;     /    /./ \ : |
-  .   ;   /  ` ; .'_,/    ,' .--'.  '   \' .
-  ;   |  ; \ ; | |    :     | /_/ \ |    ' '
+   .   /   ;.  \   ;    ;     /    /__./ \ : |
+  .   ;   /  ` ; .'___,/    ,' .--'.  '   \' .
+  ;   |  ; \ ; | |    :     | /___/ \ |    ' '
   |   :  | ; | ' ;    |.';  ; ;   \  \;      :
   .   |  ' ' ' : `----'  |  |  \   ;  `      |
   '   ;  \; /  |     '   :  ;   .   \    .\  ;
    \   \  ',  /      |   |  '    \   \   ' \ |
     ;   :    /       '   :  |     :   '  |--"
      \   \ .'        ;   |.'       \   \ ;
-  www. --- ver     '---' he       '---" ire.org
+  www. `---` ver     '---' he       '---" ire.org
 
 
 Welcome to OverTheWire!
@@ -105,4 +102,19 @@ discord or IRC.
 
   For support, questions or comments, contact us on discord or IRC.
 
-  Enjoy your stay!
+  Enjoy your stay!
+
+bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ cat ./-
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+bandit1@bandit:~$
+[](https://github.com/armandoportillo0101/Seguridad-de-Redes/blob/main/Plantilla.md#soluci%C3%B3n)
+
+```
+
+## Notas Adicionales
+
+[](https://github.com/armandoportillo0101/Seguridad-de-Redes/blob/main/Plantilla.md#notas-adicionales)
+
+### Referencias
